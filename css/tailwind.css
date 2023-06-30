@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.header {
+  @apply text-4xl font-bold py-4;
+}
+
+.nav {
+  @apply flex space-x-4;
+}
+
+.nav a {
+  @apply text-gray-300 hover:text-white;
+}
+
+.main {
+  @apply mt-8;
+}
+
+.footer {
+  @apply mt-8 text-center text-gray-500;
+}
+
+.post-title {
+  @apply text-3xl font-bold my-4;
+}
+
+.post-content {
+  @apply text-lg leading-relaxed;
+}
